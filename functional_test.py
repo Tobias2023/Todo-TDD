@@ -10,7 +10,7 @@ class HomePageTest(unittest.TestCase):
         self.browser.quit() # Stops the running test
 
     def test_home_page(self): 
-        # (User Story) Joe hears about a Todo list website and decideds to visit
+        # (User Story) A hears about a Todo list website and decideds to visit
         self.browser.get('http:\\localhost:8000') # Get LocalHost page 
         
         # She notices the page title and header mention to-do lists
